@@ -1,0 +1,151 @@
+{
+  "donem": "02.08.2026 – 04.10.2026",
+  "model": "savasy/bert-base-turkish-sentiment-cased",
+  "yorum_sayisi": {
+    "Hepsiburada": 1311,
+    "Trendyol": 7819,
+    "n11": 1327
+  },
+  "ortalama_yildiz": {
+    "Hepsiburada": 3.48,
+    "Trendyol": 4.19,
+    "n11": 4.49
+  },
+  "olumsuz_oran_yuzde": {
+    "Hepsiburada": 44.5,
+    "Trendyol": 23.9,
+    "n11": 15.4
+  },
+  "dogrulama_yildiza_karsi": {
+    "hazir_model": {
+      "n": 10111,
+      "accuracy": 0.853,
+      "macro_f1": 0.807,
+      "confusion_matrix": {
+        "labels": [
+          "negatif",
+          "pozitif"
+        ],
+        "rows_true_cols_pred": [
+          [
+            1839,
+            109
+          ],
+          [
+            1379,
+            6784
+          ]
+        ]
+      }
+    },
+    "uyarlanmis_model": {
+      "n": 10111,
+      "accuracy": 0.923,
+      "macro_f1": 0.887,
+      "confusion_matrix": {
+        "labels": [
+          "negatif",
+          "pozitif"
+        ],
+        "rows_true_cols_pred": [
+          [
+            1803,
+            145
+          ],
+          [
+            629,
+            7534
+          ]
+        ]
+      }
+    }
+  },
+  "yuksek_yildizli_olumsuz_yuzde": {
+    "Hepsiburada": 12.7,
+    "Trendyol": 7.6,
+    "n11": 4.9
+  },
+  "olumsuzlarda_konu_payi_yuzde": {
+    "Hepsiburada": {
+      "Uygulama Hataları": 28.3,
+      "Ürün & Satıcı": 17.8,
+      "Kargo & Teslimat": 14.8,
+      "İade & İptal": 16.1,
+      "Müşteri Hizmetleri": 10.3,
+      "Fiyat & Kampanya": 11.1,
+      "Arama & Ürün Bulma": 5.1,
+      "Reklam & Bildirim": 4.6,
+      "Güven & Dolandırıcılık": 6.2,
+      "Ödeme & Üyelik": 10.6
+    },
+    "Trendyol": {
+      "Uygulama Hataları": 24.9,
+      "Ürün & Satıcı": 23.0,
+      "Kargo & Teslimat": 18.4,
+      "İade & İptal": 12.2,
+      "Müşteri Hizmetleri": 12.6,
+      "Fiyat & Kampanya": 11.4,
+      "Arama & Ürün Bulma": 5.9,
+      "Reklam & Bildirim": 8.7,
+      "Güven & Dolandırıcılık": 6.9,
+      "Ödeme & Üyelik": 4.3
+    },
+    "n11": {
+      "Uygulama Hataları": 30.2,
+      "Ürün & Satıcı": 21.0,
+      "Kargo & Teslimat": 17.1,
+      "İade & İptal": 13.7,
+      "Müşteri Hizmetleri": 14.1,
+      "Fiyat & Kampanya": 20.0,
+      "Arama & Ürün Bulma": 6.3,
+      "Reklam & Bildirim": 8.3,
+      "Güven & Dolandırıcılık": 7.3,
+      "Ödeme & Üyelik": 9.3
+    }
+  },
+  "konuda_olumsuz_oran_yuzde": {
+    "Hepsiburada": {
+      "Uygulama Hataları": 95.4,
+      "Ürün & Satıcı": 61.9,
+      "Kargo & Teslimat": 55.5,
+      "İade & İptal": 93.1,
+      "Müşteri Hizmetleri": 90.9,
+      "Fiyat & Kampanya": 55.1,
+      "Arama & Ürün Bulma": 88.2,
+      "Reklam & Bildirim": 87.1,
+      "Güven & Dolandırıcılık": 32.4,
+      "Ödeme & Üyelik": 83.8
+    },
+    "Trendyol": {
+      "Uygulama Hataları": 88.0,
+      "Ürün & Satıcı": 46.4,
+      "Kargo & Teslimat": 43.7,
+      "İade & İptal": 55.2,
+      "Müşteri Hizmetleri": 72.2,
+      "Fiyat & Kampanya": 34.6,
+      "Arama & Ürün Bulma": 79.3,
+      "Reklam & Bildirim": 86.6,
+      "Güven & Dolandırıcılık": 14.5,
+      "Ödeme & Üyelik": 62.3
+    },
+    "n11": {
+      "Uygulama Hataları": 78.5,
+      "Ürün & Satıcı": 37.4,
+      "Kargo & Teslimat": 23.8,
+      "İade & İptal": 68.3,
+      "Müşteri Hizmetleri": 67.4,
+      "Fiyat & Kampanya": 15.3,
+      "Arama & Ürün Bulma": 76.5,
+      "Reklam & Bildirim": 89.5,
+      "Güven & Dolandırıcılık": 9.9,
+      "Ödeme & Üyelik": 48.7
+    }
+  },
+  "en_cok_sikayet_edilen_konu": {
+    "Hepsiburada": "Uygulama Hataları",
+    "Trendyol": "Uygulama Hataları",
+    "n11": "Uygulama Hataları"
+  },
+  "konusu_bulunamayan_olumsuz_yuzde": 22.7,
+  "konusu_bulunamayan_olumsuz_yuzde_4_kelime_ustu": 18.4
+}
